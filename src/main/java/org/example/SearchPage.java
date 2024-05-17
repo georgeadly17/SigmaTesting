@@ -18,6 +18,9 @@ public class SearchPage extends PageBase{
     @FindBy(xpath = "//*[@id=\"button-cart\"]")
     WebElement compareBtn;
 
+    @FindBy(xpath = "/html/body/div[1]/div[1]/div/div[1]/div[2]/div[5]/div/div[2]/ul/li[1]/button")
+    WebElement wishListBtn;
+
     public void clickFirst(){
         firstElement.click();
     }
@@ -28,5 +31,9 @@ public class SearchPage extends PageBase{
 
     public void clickCompareBtn(){
         compareBtn.click();
+    }
+
+    public void clickWishListBtn(){
+        wishListBtn.click();
     }
 }

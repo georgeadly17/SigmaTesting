@@ -6,6 +6,7 @@
             <class name="Tests.BuildYourBundleTest"/>
             <class name="Tests.SearchTest"/>
             <class name="Tests.CompareTest"/>
+            <class name="Tests.AddToMyWishListTest"/>
         </classes>
     </test>
 </suite>

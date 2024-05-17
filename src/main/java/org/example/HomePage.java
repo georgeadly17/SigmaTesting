@@ -36,4 +36,5 @@ public class HomePage extends PageBase{
     public void clickCompareButton(){
         compareButton.click();
     }
+
 }
